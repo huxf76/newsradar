@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin: 0px; padding: 0px; font-size:14px;color:#333;background:#FFFFFF;font-family:"微软雅黑",Verdana,Arial,Sans-serif; }
+*{font-family:微软雅黑 !important}
+div,form,img,ul,ol,li,dl,dt,dd,table,iframe,p,img{padding:0px; margin:0px; border:0px}
+h1,h2,h3,h4,h5,h6 {padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;}
+.clear{width:0px;clear:both;overflow:hidden;visibility:hidden;line-height:0; height: 0px; clear: both; font-size: 0px; margin: 0px;padding: 0px}
+.biaoti{ color:#1A397D; font-size:16px; margin-top:20px;}
+a{text-decoration:none; color:#134A91}
+a:hover{  /*cursor:hand;*/ text-decoration:underline;}
+.clear{font-size:0px;  height:0px;  clear:both;}
+.top{position:fixed; right:0px; bottom:10%;}
+
+.container{}
+.header{background:url(images/header_bg.png) repeat-x;}
+.head_menu{height:81px; width:1000px; margin:0px auto;}
+  .head_menu a.logo{ float:left; background:url(images/logo.png) no-repeat; width:106px; height:80px;}
+  .head_menu .profile{height:33px; line-height:33px; text-align:right}
+  .head_menu .profile span{ margin:0px 30px 0px 10px; font-weight:bold}
+
+  .head_menu .logout li{list-style:none; float:right; margin-top:20px;  padding:0px 10px; border-left:solid 1px #134A91 }
+  .head_menu .logout li:last-child{border-left:none}
+  .head_menu .logout li a{color:#134A91;}
+  .head_menu .logout li a:hover{ font-weight:bold}
+  .head_menu .logout li#current a{color:#134A91; font-weight:bold}
+  
+  .head_menu .login { font-size:16px; font-weight:bold}
+  .head_menu .login li{ list-style:none; float:right; background:#FFF; width:113px; height:39px; line-height:39px; margin-left:12px; text-align:center;}
+  .head_menu .login li a{ display:block; color:#134A91}
+  .head_menu .login li#current a{ background:url(images/header_menu_bg.png) repeat-x; color:#FFFFFF}
+.head_inner{ width:1000px; margin:0px auto; height:50px; line-height:50px; font-size:16px; color:#FFF; background: url(images/header_inner_bg.png) no-repeat;}
+.head_inner div{display:inline-block; width:160px; text-align:center}
+.head_inner span{margin-left:30px;}
+.footer{ background:url(images/footer_bg.png) repeat-x; height:97px; margin-top:30px; text-align:center; color:#fff; font-size:12px}
+.footer_inner{ height:42px; padding-top:33px; color:#333333; margin-bottom:3px;}
+.content{ width:1000px; margin:0px auto;}
+.content .left{ float:left; width:160px; margin:0px auto; background:#F5F5F5; z-index:0}
+.content .left ul li{ list-style:none; height:28px; line-height:28px; position:relative}
+
+.content .left ul li h3{display:block; position:absolute;  width:152px; z-index:20; font-weight:100;font-size:14px;}
+.content .left ul li h3 a{display:block; z-index:20; border:1px solid #F5F5F5; border-right:none; border-bottom:none; font-size:14px;color:#333333; padding:0px 4px; }
+.content .left ul li h3 a:hover{ background:#FFF; border:solid 1px #F00; border-right:none; text-decoration:none}
+.hover{background:#FFF; border:solid 1px #F00; border-right:none; text-decoration:none}
+.content .left ul li h3 span{position:absolute;  right:0px;  color: #F00}
+.content .sort{position: absolute; z-index:10; background:#FFF; border: solid 1px #F00; margin-left:151px; padding:4px 20px; width:150px;}
+.content .right{ float:right; width:810px; margin:0px auto; position:relative}
+.tishi{ background:#EFEFEF; text-align:center; padding:30px 20px; font-size:16px; margin:10px 0px;}
+.tishi div{ display: inline-table;text-align:left; padding:0px 8px; line-height:25px; vertical-align:middle}
+.tishi a{color:#EB3F33}
+.tishiInput{ width:330px; padding:5px; height:33px; margin-right:5px; border:solid 1px #1A397D;}
+.tishiBotton{ background:  url(images/button_bg.png) repeat-x; border:none; width:92px; height:47px; line-height:47px; text-align:center; color:#1A397D; font-size:16px; font-weight:bold; cursor:pointer}
+
+.password_item{}
+
+.head{background:#EFEFEF; margin:20px 0px; padding:10px 20px 0px 20px;}
+.head dl dd{float:left;border-right:1px solid #FFF; margin-bottom:10px;}
+.head dl dd a{ display:block; padding:0px 25px; }
+.head dl dd a:hover{ background:#D6E9F8; }
+.head dl dd.current a{ background:#1C639B; color:#FFF}
+.head dl dd:last-child{border-right:none;}
+.SubscriptionHover{position:absolute; border:solid 1px #1C639B; border-radius:8px; box-shadow:3px 3px 2px #ccc; background:#EFF7FC; padding:10px 20px; width:150px;}
+.SubscriptionHover ul li{ list-style:none; margin-bottom:5px}
+
+.MyList dl{ margin-bottom:20px; border-bottom: dashed 1px #666666; padding-bottom:5px; padding-right:90px;}
+.MyList dl:last-child{border-bottom:none}
+.MyList dl dt{ position:absolute; right:0; margin-top:30px}
+.MyList dl dd{ margin-bottom:5px;}
+.MyList dl dd em{font-style:normal; font-size:16px; font-weight:bold; color:#3D5791; line-height:23px;}
+.MyList dl dd span{font-size:12px; color:#666666; margin-right:25px;}
+.MyListButton{ background:#FFDBA4; border:none; width:64px; padding:5px 0px; text-align:center; color:#B76D00; font-weight:bold; cursor:pointer}
+.IndexTable{ background:#CCCCCC; margin-bottom:20px;}
+
+.IndexTable td{ background:#FFF; text-align:center}
+.IndexTable td,th{ padding:3px 0px;}
+.IndexTable th{ background:#F5F5F5; text-align:left; padding-left:6px; width:154px;}
+.IndexTableFixde{position:fixed; bottom:0px; padding:20px; background:#FFD0B0; color:#8A3700; width:960px; text-align:center; font-size:16px;}
+.dayL{background:#00A167; margin:0px auto;width:60px; height:15px;}
+.dayM{background:#00A167; margin:0px auto;width:30px; height:15px;}
+.dayS{background:#00A167; margin:0px auto;width:15px; height:15px;}
+
+.weekL{background:#373399; margin:0px auto;width:60px; height:15px;}
+.weekM{background:#373399; margin:0px auto;width:30px; height:15px;}
+.weekS{background:#373399; margin:0px auto;width:15px; height:15px;}
+
+.monthL{background:#E47F2E; margin:0px auto;width:60px; height:15px;}
+.monthM{background:#E47F2E; margin:0px auto;width:30px; height:15px;}
+.monthS{background:#E47F2E; margin:0px auto;width:15px; height:15px;}
+	
+.IndexTableHoverPop{position:absolute; margin-left:60px; _margin-left:0px; background:#fff;  width:350px; border:4px solid #AAAAAA; box-shadow:3px 3px 3px #CCC;text-align:left}
+
+.IndexTableHoverPop .Title{background:#DDDDDD; height:16px; padding:4px 4px 4px 8px;}
+.IndexTableHoverPop .IndexList{ margin:10px 10px 10px 30px; color:#134A91}
+.IndexTableHoverPop .IndexList li{ margin-bottom:10px;}
+.IndexTableHoverPop .IndexList li p{ color:#666666; font-size:12px;}
+
+.vPagging {text-align:center; margin-top:10px;}
+.vPagging span{ margin-left:20px;}
+.vPagging a {border:#999999 1px solid; margin:2px; line-height:21px;padding: 2px 5px; color:#999999; text-decoration:none; font-weight:100; font-size:12px}
+.vPagging a:hover {color:#fff; background-color:#036cb4;}
+.vPagging a.curp{border:#036cb4 1px solid;background-color:#036cb4; color:#fff}
+.vPaggingInput{ border:solid 1px #999; width:30px; height:18px; margin:0px 5px; text-align:center}
+.TextAlignRight{ text-align:right}
+.bold{ font-weight:bold}
+.bgGray{ background:#EFEFEF; padding:30px 20px; font-size:16px; margin:10px 0px;}
+.passwordItem{ padding-left:110px;text-align:right; line-height:33px;min-height:33px;_height:33px; font-size:14px; margin-bottom: 5px;}
+.passwordItem label{ margin-left:-100px; float:left;width:120px; text-align:right;height:33px; line-height:33px; }
